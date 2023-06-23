@@ -11,10 +11,10 @@ int Exponentiation(int number1, int number2)
 {
     int result = number1;
     for (int i = 1; i <= number2; i++)
-        {
-        result = result * i;
-        }
-        return result;
+    {
+        result *= i;
+    }
+    return result;
 }
 
 // Body
